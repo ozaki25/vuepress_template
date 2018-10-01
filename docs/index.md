@@ -1,1 +1,3 @@
-# index.md
+# Index
+
+![logo](/images/logo.png)
