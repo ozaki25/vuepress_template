@@ -58,7 +58,7 @@ npm run build # or yarn build
 
 #### 画像の配置
 
-- `docs/.vuepress/public/`配下に配置することでmdファイルから使用することができる
+- 画像ファイルは`docs/.vuepress/public/`配下に配置することでmdファイルから使用することができる
 
 ```
 // ここに画像があるとする
