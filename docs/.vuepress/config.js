@@ -3,11 +3,11 @@ module.exports = {
   themeConfig: {
     sidebar: [
       {
-        title: 'index',
+        title: 'TOP',
         children: ['/'],
       },
       {
-        title: 'subject1',
+        title: 'Subject1',
         children: [
           '/subject1/page1',
           '/subject1/page2',
@@ -15,7 +15,7 @@ module.exports = {
         ],
       },
       {
-        title: 'subject2',
+        title: 'Subject2',
         children: [
           '/subject2/page1',
           '/subject2/page2',
@@ -23,7 +23,7 @@ module.exports = {
         ],
       },
       {
-        title: 'subject3',
+        title: 'Subject3',
         children: [
           '/subject3/page1',
           '/subject3/page2',
