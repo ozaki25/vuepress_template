@@ -40,7 +40,7 @@ npm run build # or yarn build
 
 - `docs/.vuepress/dist`配下をWebサーバ等にデプロイすればコンテンツを公開できる
 - github pagesがお手軽で便利
-    - 公式サイトに手順が紹介されている
+    - 公式サイトで手順が紹介されている
     - [https://vuepress.vuejs.org/guide/deploy.html#github-pages](https://vuepress.vuejs.org/guide/deploy.html#github-pages)
 
 ### ファイルの配置
