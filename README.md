@@ -12,6 +12,13 @@ vuepress -V
 # 0.14.4
 ```
 
+### 雛形のクローン
+
+```bash
+git clone https://github.com/ozaki25/vuepress_template.git
+cd vuepress_template
+```
+
 ### 開発モード
 
 - 開発モードで起動すると`localhost:8080`でプレビューできる
@@ -21,17 +28,17 @@ npm start # or yarn start
 # open http://localhost:8080
 ```
 
-- mdファイルを修正すると自動でブラウザがリロードされる
+- `docs`配下のmdファイルを修正すると自動でブラウザがリロードされる
 
 ### 本番モード
 
-- ビルドすると`docs/.vuepress/dist`にhtml/css/jsが生成される
+- ビルドすると`docs/.vuepress/dist`にhtml, css, jsが生成される
 
 ```bash
 npm run build # or yarn build
 ```
 
-- `docs/.vuepress/dist`配下をWebサーバ等にデプロイする
+- `docs/.vuepress/dist`配下をWebサーバ等にデプロイすればコンテンツを公開できる
 
 ### ファイルの配置
 
@@ -71,3 +78,8 @@ $textColor = #2c3e50
 $borderColor = #eaecef
 $codeBgColor = #282c34
 ```
+
+### その他
+
+- 公式サイトが充実しているのでそちらを参照
+    - [https://vuepress.vuejs.org/](https://vuepress.vuejs.org/)
