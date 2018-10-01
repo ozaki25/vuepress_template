@@ -54,7 +54,7 @@ npm run build # or yarn build
 
 - `docs/.vuepress/config.js`に定義する
 - サンプル参照
-    - [/docs/.vuepress/config.js](./docs/.vuepress/config.js)
+    - [/docs/.vuepress/config.js](./docs/.vuepress/config.js#L4)
 
 #### 画像の配置
 
