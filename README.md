@@ -42,6 +42,13 @@ npm run build # or yarn build
 - github pagesがお手軽で便利
     - 公式サイトで手順が紹介されている
     - [https://vuepress.vuejs.org/guide/deploy.html#github-pages](https://vuepress.vuejs.org/guide/deploy.html#github-pages)
+- buildした成果物をローカルで動作確認するには`http-server`が便利
+
+```bash
+npm i -g http-server
+http-server ./docs/.vuepress/dist
+# open http://localhost:8080
+```
 
 ### ファイルの配置
 
