@@ -32,3 +32,42 @@ npm run build # or yarn build
 ```
 
 - `docs/.vuepress/dist`配下をWebサーバ等にデプロイする
+
+### ファイルの配置
+
+#### mdファイル
+
+- `docs`配下に配置する
+- 必要に応じてディレクトリをきることも可能
+
+#### サイドメニュー
+
+- `docs/.vuepress/config.js`に定義する
+- サンプル参照
+    - [/docs/.vuepress/config.js](./docs/.vuepress/config.js)
+
+#### 画像の配置
+
+- `docs/.vuepress/public/`配下に配置することでmdファイルから使用することができる
+
+```
+// ここに画像があるとする
+docs/.vuepress/public/images/logo.png
+```
+
+```md
+// mdファイルからこのようにしてpublic配下のファイルを呼ぶことができる
+![logo](/images/logo.png)
+```
+
+#### テーマの変更
+
+- `docs/.vuepress/override.styl`でテーマカラーを変更することができる
+
+```styl
+// サンプル
+$accentColor = #28A6CF
+$textColor = #2c3e50
+$borderColor = #eaecef
+$codeBgColor = #282c34
+```
