@@ -50,7 +50,7 @@ npm run build # or yarn build
 - `docs`配下に配置する
 - 必要に応じてディレクトリをきることも可能
 
-#### サイドメニュー
+#### サイドメニューの設定
 
 - `docs/.vuepress/config.js`に定義する
 - サンプル参照
