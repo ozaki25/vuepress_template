@@ -1,7 +1,7 @@
-# page2.md
+# Page2
 
-## topic1
+## Topic1
 
-## topic2
+## Topic2
 
-## topic3
+## Topic3
