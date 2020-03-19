@@ -4,6 +4,6 @@
   "main": "index.js",
   "scripts": {
     "start": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs --dest public"
   }
 }
