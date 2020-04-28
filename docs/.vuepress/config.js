@@ -32,4 +32,15 @@ module.exports = {
       },
     ],
   },
+  markdown: {
+    lineNumbers: true,
+  },
+  plugins: {
+    '@vuepress/back-to-top': {},
+    '@vuepress/pwa': {
+      serviceWorker: true,
+      updatePopup: true,
+    },
+  },
+  head: [['link', { rel: 'manifest', href: '/manifest.json' }]],
 };
