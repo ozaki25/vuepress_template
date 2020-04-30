@@ -2,21 +2,15 @@
 
 ## 使い方
 
-### セットアップ
-
-- vuepressをglobalにインストール
-
-```bash
-npm i -g vuepress
-vuepress -V
-# 0.14.4
-```
-
 ### 雛形のクローン
 
 ```bash
-git clone https://github.com/ozaki25/vuepress_template.git
-cd vuepress_template
+git clone git@github.com:ozaki25/vuepress_template.git your-text-name
+cd your-text-name
+rm -rf .git README.md
+git init
+git add .
+git commit -m "init"
 ```
 
 ### 開発モード
@@ -24,6 +18,7 @@ cd vuepress_template
 - 開発モードで起動すると`localhost:8080`でプレビューできる
 
 ```bash
+npm i # or yarn
 npm start # or yarn start
 # open http://localhost:8080
 ```
@@ -32,21 +27,24 @@ npm start # or yarn start
 
 ### 本番モード
 
-- ビルドすると`docs/.vuepress/dist`にhtml, css, jsが生成される
+- ビルドすると`public`にhtml, css, jsが生成される
 
 ```bash
 npm run build # or yarn build
 ```
 
-- `docs/.vuepress/dist`配下をWebサーバ等にデプロイすればコンテンツを公開できる
-- github pagesがお手軽で便利
-    - 公式サイトで手順が紹介されている
-    - [https://vuepress.vuejs.org/guide/deploy.html#github-pages](https://vuepress.vuejs.org/guide/deploy.html#github-pages)
+- `public`配下をWebサーバ等にデプロイすればコンテンツを公開できる
+- nowのセットアップができていれば`now`コマンドで即座にデプロイできる
+
+```bash
+now
+```
+
 - buildした成果物をローカルで動作確認するには`http-server`が便利
 
 ```bash
 npm i -g http-server
-http-server ./docs/.vuepress/dist
+http-server ./public
 # open http://localhost:8080
 ```
 
@@ -79,7 +77,7 @@ docs/.vuepress/public/images/logo.png
 
 #### テーマの変更
 
-- `docs/.vuepress/override.styl`でテーマカラーを変更することができる
+- `docs/.vuepress/styles/palette.styl`でテーマカラーを変更することができる
 
 ```styl
 // サンプル
