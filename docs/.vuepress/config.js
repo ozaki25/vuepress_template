@@ -1,6 +1,7 @@
 module.exports = {
   title: 'HelloWorld',
   themeConfig: {
+    domain: 'https://xxx.ozaki25.now.sh',
     sidebar: [
       {
         title: 'TOP',
@@ -41,6 +42,7 @@ module.exports = {
       serviceWorker: true,
       updatePopup: true,
     },
+    'seo': {},
   },
   head: [['link', { rel: 'manifest', href: '/manifest.json' }]],
 };
