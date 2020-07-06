@@ -3,7 +3,7 @@ const dayjs = require('dayjs');
 module.exports = {
   title: 'HelloWorld',
   themeConfig: {
-    domain: 'https://xxx.ozaki25.now.sh',
+    domain: 'https://xxx.ozaki25.vercel.app',
     sidebar: [
       {
         title: 'TOP',
