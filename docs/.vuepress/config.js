@@ -40,7 +40,9 @@ module.exports = {
       serviceWorker: true,
       updatePopup: true,
     },
-    seo: {},
+    seo: {
+      description: () => 'ハンズオン資料',
+    },
   },
   head: [['link', { rel: 'manifest', href: '/manifest.json' }]],
 };
