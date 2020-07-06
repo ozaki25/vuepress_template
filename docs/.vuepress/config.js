@@ -4,6 +4,8 @@ module.exports = {
   title: 'HelloWorld',
   themeConfig: {
     domain: 'https://xxx.ozaki25.vercel.app',
+    repo: 'ozaki25/vuepress_template',
+    repoLabel: 'GitHub',
     sidebar: [
       {
         title: 'TOP',
